@@ -76,7 +76,8 @@ begin
       F.Angle:=0.15;
       Font:=F;
 //      Font.Name:='/usr/share/fonts/truetype/ttf-dejavu/DejaVuSans.ttf';
-      Font.Name:='/home/michael/Documents/arial.ttf';
+//      Font.Name:='/home/michael/Documents/arial.ttf';
+	  Font.Name:='arial.ttf';
       Font.Size:=10;
       Font.FPColor:=colWhite;
 //      Font.Orientation:=900;

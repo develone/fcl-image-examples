@@ -25,7 +25,7 @@ begin
   Reader := TFPReaderPNG.create;
   Writer := TFPWriterPNG.create;
   Writer.UseAlpha := True;
-  ImOriginal.LoadFromFile('original.png', Reader);
+  ImOriginal.LoadFromFile('lena_rgb_256.png', Reader);
 
   CanvScaled := TFPImageCanvas.create(ImScaled);
   CanvScaled.StretchDraw(0,0,63,63, ImOriginal);
